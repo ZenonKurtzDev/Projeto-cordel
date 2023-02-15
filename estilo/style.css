@@ -1,2 +1,83 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+
+             background-color: darkgray;
+
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+h1{
+    padding: 50px;
+    /*text-transform: uppercase;* deixa as letras todas grander*/
+     font-variant: small-caps;/* Essa é melhor que a de cima*/
+
+
+}
+
+header{
+    padding: 50px;
+}
+
+a{
+    color: rgb(249, 246, 246);
+    text-decoration: none; /*Tira o sublinhado do link*/
+    font-weight: bolder; /* Deixa em negrito*/
+}
+
+a:hover{
+    text-decoration: underline;/*Quando passa o mouse fica sublinhado*/
+}
+
+a#cor{
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    
+ }
+
+section{
+    padding-top:10vh ;
+    padding-bottom: 10vh;
+    line-height: 2em;/*Dá espaço nas linhas*/
+    padding-left: 30px; /*Dá espaço da margem*/
+
+}   
+
+
+ section.normal{
+    background-color: white;
+    color: rgb(31, 31, 31);
+
+ }
+ 
+  section.imagem > p{
+    background-color: rgba(15, 15, 15, 0.263);
+    width: 400px;
+
+  }
+ 
+  section.imagem{
+            
+    background-color: rgb(77, 76, 76);
+    color: white;
+ }
+
+ footer{
+    text-align: center;
+    background-color: black;
+    color: rgb(252, 248, 248);
+    padding: 10px;
+    font-weight: bolder;
+ }
