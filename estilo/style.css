@@ -75,6 +75,13 @@ section.normal{
 section.imagem{
          background-color: rgba(17, 17, 17, 0.747); /*Cor das faixas onde vai as imagens*/
          color: rgb(248, 243, 243);
+         text-shadow: 1px 1px 0px black;
+         box-shadow: inset 6px 6px 13px black;/*Sombra interna*/
+         background-attachment: fixed; /*fixa a Imagem*/
+}
+
+section > p{
+    padding-bottom: 2em;
 }
 
 section.imagem > p{ /*Caixa da imagem*/
@@ -85,6 +92,20 @@ section.imagem > p{ /*Caixa da imagem*/
                                         
 }
 
+
+section#img01{
+   background-image: url(../imagens/background001.jpg);
+   background-position: right center;
+   background-size: cover;
+}
+
+
+
+section#img02{
+
+    background-image: url(../imagens/background002.jpg);
+    background-size: cover;
+}
 footer{
        background-color: black;
        color: rgb(255, 255, 254);
