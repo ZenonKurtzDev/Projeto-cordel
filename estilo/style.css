@@ -29,9 +29,9 @@ html, body{
 
 }
 
-header{
-    background-color: black;
-    color: white;
+header{ /* titulo*/
+    background-color: rgb(14, 14, 14);
+    color: rgb(248, 246, 246); /* cor do titulo*/
     text-align: center;
     font-family: var(--titulo);
 }
@@ -55,13 +55,16 @@ header > h1{ /* cabeçalho*/
 
 
 
-}
+
 
 
 header{
     padding: 50px;
 }
 
+head > P{
+    padding-bottom: 50PX;
+}
 
 a{
     color: rgb(249, 246, 246);
@@ -73,8 +76,8 @@ a:hover{
     text-decoration: underline;/*Quando passa o mouse fica sublinhado*/
 }
 
-a#cor{
-    color: rgb(255, 253, 253);
+a#cor{ /* cor do link do roda pé*/
+    color: rgb(254, 251, 251);
     font-weight: bolder;
     
  }
@@ -91,23 +94,51 @@ section{
 
 
  section.normal{
-    background-color: white;
-    color: rgb(31, 31, 31);
+    background-color: rgb(255, 255, 255);
+    color: rgba(3, 3, 3, 0.884);
 
  }
  
-  section.imagem > p{
-    background-color: rgba(15, 15, 15, 0.263);
-    
-
-  }
+ section.imagem{
+     background-color: rgba(255, 255, 255, 0.968);
+     color: rgba(7, 7, 7, 0.34);
+     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.332);
+     background-attachment: fixed;
+ }
+  
  
-  section.imagem > p{
+  section.imagem > p{ /*joaninha*/
     display:inline-block; 
     padding: 5px;
-    background-color: rgb(77, 76, 76);
-    color: white;
+    background-color: rgba(12, 12, 12, 0.59);
+    color: rgb(247, 243, 243);
+    text-shadow: 1px 1px 0px black;    
+    
+   
  }
+
+ section > p{
+    padding-bottom: 2em;
+    
+    color: rgb(16, 16, 16);
+
+ }
+ 
+ section#img01{
+
+    background-image: url(../imagens/background001.jpg) ;
+    background-position: right center;
+    background-size: cover; /*joga a imagem para direita*/
+
+ }
+
+section#img02{
+
+         background-image: url(../imagens/background002.jpg);
+         background-size: cover;/*joga a imagem para direita*/
+         
+
+}
 
  footer{
     text-align: center;
