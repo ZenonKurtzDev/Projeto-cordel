@@ -8,8 +8,8 @@
 e temos o -- que são as variáveis*/
 :root{
       --fonte1:  Verdana, Geneva, Tahoma, sans-serif;
-      --titulo:  'Open Sans', sans-serif;
-      --section:  'Sriracha', cursive;
+      --fonte1:  'Open Sans', sans-serif;
+      --fonte2:  'Sriracha', cursive;
 }
 
 /* Aqui é a configuração do reader*/
@@ -19,4 +19,70 @@ e temos o -- que são as variáveis*/
     
 } 
  
+html, body {
+       min-height: 100vh; /*Tamanho minimo da altra do html e do body*/       
+         
 
+       background-color: darkgray;
+}
+
+
+ header{
+     background-color: black;
+     color: white;
+     text-align: center;
+ }
+
+ header > h1{ /*Configuração da palavra cordel*/
+     
+            padding: 50px;
+          
+           font-variant: small-caps;  /* Temos as opções text-transform:lowercase;  Se for a opção uppercase fica tudo maiúsculo*/
+}           
+
+header > p{ /*Nome do altor*/
+       padding-bottom: 50px;
+}
+
+a{ /* Cofiguração dos links  do altor e do roda pé */
+    color: white;
+    text-decoration: none; /*Tira o sublinhado*/
+    font-weight: bolder; /* deixa em negrito*/
+}
+
+a:hover{
+    text-decoration: underline;/*Qunado passa o mouse por cima do nome Milton e do roda pé fica sublinhado */
+}
+
+section{ /*Configuração geral do section*/
+
+            padding-top: 10vh;
+            padding-bottom: 10pvh;
+            line-height: 2em; /*Espaçamento entre as letras*/
+            padding-left: 30px;/* Dá espaço entre a margem*/
+}
+
+
+section.normal{
+    background-color: rgb(252, 251, 251);
+    color: rgba(17, 16, 16, 0.534);
+}
+
+section.imagem{
+         background-color: rgba(17, 17, 17, 0.747); /*Cor das faixas onde vai as imagens*/
+         color: white;
+}
+
+section.imagem > p{ /*Caixa da imagem*/
+
+     width: 400px;
+     background-color: rgba(0, 0, 0, 0.445);
+                                        
+}
+
+footer{
+       background-color: black;
+       color: rgb(255, 255, 254);
+       text-align: center;
+       padding: 10px;
+}
