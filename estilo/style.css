@@ -59,7 +59,7 @@ a:hover{
 section{ /*Configuração geral do section*/
 
             padding-top: 10vh;
-            padding-bottom: 10pvh;
+            padding-bottom: 10vh;
             line-height: 2em; /*Espaçamento entre as letras*/
             padding-left: 30px;/* Dá espaço entre a margem*/
             font-family: var(--fonte3);
