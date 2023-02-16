@@ -62,8 +62,8 @@ header{
     padding: 50px;
 }
 
-head > P{
-    padding-bottom: 50PX;
+header > P{
+    padding-bottom: 1px;
 }
 
 a{
@@ -109,10 +109,9 @@ section{
  
   section.imagem > p{ /*joaninha*/
     display:inline-block; 
-    padding: 5px;
-    background-color: rgba(12, 12, 12, 0.59);
-    color: rgb(247, 243, 243);
-    text-shadow: 1px 1px 0px black;    
+    padding: 5px;  
+    background-color: rgba(0, 0, 0, 0.326);
+ 
     
    
  }
